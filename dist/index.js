@@ -88,7 +88,8 @@ function convertScalesToMil(scales, values, isNegative) {
                     res += y * values[i];
                     break;
                 default:
-                    console.log("unidade desconhecida");
+                    console.error("unknown unit");
+                    throw new Error("unknown unit");
             }
         }
     }
