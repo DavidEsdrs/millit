@@ -2,6 +2,7 @@
   "name": "millit",
   "version": "0.0.1",
   "main": "src/index.js",
+  "repository": "https://github.com/DavidEsdrs/millit",
   "author": {
     "name": "DavidEsdrs",
     "url": "https://github.com/DavidEsdrs/"
