@@ -22,5 +22,8 @@
     "time",
     "convert",
     "parsing"
+  ],
+  "files": [
+    "dist"
   ]
 }
