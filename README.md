@@ -32,12 +32,14 @@ if(sum10m) {
   console.log(millit(myDateStr)) // 32421600000
 }
 ```
-
-**tip**: This package is written intended to be fully compatible with the results that `ms` would give.
+**hint**: Try to change sum10m to `false`
 
 ## How it compares with MS
 ```js
-const withMs = ms("10d") + ms("10s")
+const tenDays = ms("10d")
+const tenSecs = ms("10s")
+const withMs = tenDays + tenSecs
+
 const withMillit = millit("10d 10s")
 console.log(withMs === withMillit) // true
 
@@ -45,3 +47,15 @@ console.log(ms(withMs)) // 10d
 console.log(millit(withMillit)) // 10d
 ```
 
+**hint**: This package is written intended to be fully compatible with the results that `ms` would give.
+
+## Contribution
+Contributions are welcome! If you want to contribute with this project, follow the steps:
+
+1. Fork this repository
+2. Create a branch: `git checkout -b my-contribution`
+3. Do your changes and commit it: `git commit -m "fix: fix XYZ"`
+4. Send your changes to the remote repository: `git push origin my-contribution`
+5. Open a pull request in the original repository
+
+Thanks in advance!
