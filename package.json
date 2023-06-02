@@ -13,5 +13,10 @@
   "scripts": {
     "test": "jest"
   },
-  "dependencies": {}
+  "keywords": [
+    "milliseconds",
+    "time",
+    "convert",
+    "parsing"
+  ]
 }
