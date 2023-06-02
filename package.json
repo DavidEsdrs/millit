@@ -1,0 +1,17 @@
+{
+  "name": "millit",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": {
+    "name": "DavidEsdrs",
+    "url": "https://github.com/DavidEsdrs/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {}
+}
