@@ -18,6 +18,29 @@ millit('20') // 20
 millit('-200h') // -720000000
 ```
 
+## Installation
+Install it with you favorite package manager:
+```sh
+npm install millit
+OR
+yarn add millit
+```
+Usage:
+
+If you are using plain javascript:
+```js
+const millit = require("millit")
+
+millit("10d")
+```
+
+if you are using typescript:
+```ts
+import millit from "millit"
+
+millit("10d")
+```
+
 ## Features
 The fact that the order doesn't matter empowers you to dynammically sum up different dates whitout be afraid of date inconsistencies. Example:
 ```js
