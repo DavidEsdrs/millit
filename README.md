@@ -57,6 +57,8 @@ if(sum10m) {
 ```
 **hint**: Try to change sum10m to `false`
 
+**disclaimer**: When dynammically summing milliseconds along with other time units as above, always include the "ms" prefix. For example, "10d 10ms 20m" works as expected, while omitting the "ms" prefix in expressions like "10d 10 20m" will result in a silent error (NaN).
+
 ## How it compares with MS
 ```js
 const tenDays = ms("10d")
