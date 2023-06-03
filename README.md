@@ -74,6 +74,9 @@ console.log(millit(withMillit)) // 10d
 
 **hint**: This package is written intended to be fully compatible with the results that `ms` would give.
 
+## Performance
+This package is just a convenience for small projects. It is not intended to be a substitute for "ms" as this package uses simple for loops to search through strings. It's not as powerful as "ms" which uses regex search, known to be faster for larger inputs.
+
 ## Contribution
 Contributions are welcome! If you want to contribute with this project, follow the steps:
 
